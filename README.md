@@ -9,7 +9,7 @@ The application allows basic operations on items such as creating, reading, upda
 Instead of using a database, data is stored in a JSON file to keep things simple and focused on backend logic.
 
 Features
->Create and run an Express server
+Create and run an Express server
 REST API endpoints:
 GET /items → fetch all items
 POST /items → add a new item
