@@ -66,8 +66,3 @@
 - How routing and controllers interact  
 - How to manage data without a database  
 - Basics of Git and GitHub  
-
----
-
-## Author
-- Created as part of a backend development task  
