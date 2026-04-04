@@ -1,64 +1,73 @@
-Backend Task – REST API Project
+# Backend Task – REST API Project
 
-This project is a simple backend application built using Node.js and Express. The goal was to understand how APIs work, how data is handled on the server side, and how different parts of a backend system are structured.
+## Overview
+- This project is a backend application built using Node.js and Express  
+- It demonstrates how REST APIs work and how data is handled on the server  
+- Data is stored in a JSON file instead of a database  
 
-Overview
+---
 
-The application allows basic operations on items such as creating, reading, updating, deleting, and searching. Each item contains an ID, title, description, and a timestamp.
+## Features
+- Create and run an Express server  
+- REST API endpoints:
+  - GET /items → Fetch all items  
+  - POST /items → Add a new item  
+  - DELETE /items/:id → Delete an item  
+  - PUT /items/:id → Update an item  
+  - GET /items/search?q=keyword → Search items  
+- Unique ID generation using timestamps  
+- Basic input validation  
+- Error handling for invalid routes and missing data  
+- Clean and modular folder structure  
 
-Instead of using a database, data is stored in a JSON file to keep things simple and focused on backend logic.
+---
 
-Features
-Create and run an Express server
-REST API endpoints:
-GET /items → fetch all items
-POST /items → add a new item
-DELETE /items/ → delete an item
-PUT /items/ → update an item
-GET /items/search?q=keyword → search items by title
-Unique ID generation using timestamps
-Basic input validation
-Error handling for invalid routes and missing data
-Clean and modular folder structure
-Tech Stack
-JavaScript
-Node.js
-Express.js
-Project Structure
-server.js → Entry point of the application
-routes/ → Handles API routes
-controllers/ → Contains logic for each API
-data/ → Stores JSON data
-.gitignore → Excludes unnecessary files
-How to Run Locally
-Clone the repository
+## Tech Stack
+- JavaScript  
+- Node.js  
+- Express.js  
 
-Install dependencies:
+---
 
-npm install
+## Project Structure
+- server.js → Entry point of the application  
+- routes/ → Handles API endpoints  
+- controllers/ → Contains business logic  
+- data/ → Stores JSON data  
+- .gitignore → Excludes unnecessary files  
 
-Start the server:
+---
 
-node server.js
+## How to Run Locally
+1. Clone the repository  
+2. Install dependencies:
+   npm install  
+3. Start the server:
+   node server.js  
+4. Open:
+   http://localhost:3000  
 
-Open in browser or API client:
+---
 
-http://localhost:3000
-API Testing
+## API Testing
+- Tested using Thunder Client (VS Code)  
 
-All endpoints were tested using Thunder Client inside VS Code.
+---
 
-Deployment
+## Deployment
+- Project is deployed here:  
+👉 (Paste your deployed link here)
 
-The project is deployed and accessible here:
-(Add your deployed link here)
+---
 
-What I Learned
+## What I Learned
+- How REST APIs work  
+- How backend projects are structured  
+- How routing and controllers interact  
+- How to manage data without a database  
+- Basics of Git and GitHub  
 
-While building this project, I understood:
+---
 
-How REST APIs work
-How to structure a backend project
-How routing and controllers interact
-How to handle data without a database
-Basics of Git and GitHub workflow
+## Author
+- Created as part of a backend development task  
