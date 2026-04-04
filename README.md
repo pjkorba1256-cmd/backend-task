@@ -56,7 +56,7 @@
 
 ## Deployment
 - Project is deployed here:  
-👉 (Paste your deployed link here)
+👉 https://backend-task-production-0955.up.railway.app/items
 
 ---
 
